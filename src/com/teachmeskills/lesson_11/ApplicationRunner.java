@@ -16,13 +16,13 @@ All these methods are implemented in a separate class in static methods, each ta
  */
 public class ApplicationRunner {
     public static void main(String[] args) {
-        String DocumentNumber = "5551-ABC-2222-Bbb-1a2b";
-        System.out.println(StringOperation.first(DocumentNumber));
-        System.out.println(StringOperation.second(DocumentNumber));
-        System.out.println(StringOperation.third(DocumentNumber));
-        System.out.println(StringOperation.fourth(DocumentNumber));
-        System.out.println(StringOperation.fifth(DocumentNumber));
-        System.out.println(StringOperation.sixth(DocumentNumber));
-        System.out.println(StringOperation.seventh(DocumentNumber));
+        String documentNumber = "5551-ABC-2222-Bbb-1a2b";
+        System.out.println(StringOperation.first(documentNumber));
+        System.out.println(StringOperation.second(documentNumber));
+        System.out.println(StringOperation.third(documentNumber));
+        System.out.println(StringOperation.fourth(documentNumber));
+        System.out.println(StringOperation.fifth(documentNumber));
+        System.out.println(StringOperation.sixth(documentNumber));
+        System.out.println(StringOperation.seventh(documentNumber));
     }
 }
